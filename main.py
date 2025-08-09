@@ -24,7 +24,7 @@ messages = {
     "Die with a Smile – Lady Gaga & Bruno Mars": "If I had to end it all, I’d want to ‘die with a smile’—because you’re my reason to smile forever.",
     "Those Eyes – New West": "Those eyes… they see straight into my soul.",
     "Lover – Taylor Swift": "Can I go where you go? Can we always be this close forever and ever?",
-    "Marry Me – Jason Derulo": "In a hundred lifetimes, I’d still find you and marry you every time.",
+    "Marry you": "In a hundred lifetimes, I’d still find you and marry you every time.",
     "Love Story – Taylor Swift": "This is our love story, and I’ll fight for it every single day.",
     "Bihibbek W Bghaar – Assi El Hallani": "I love you, and yes… I get jealous too.",
     "Min awal diea" : "From the very first moment, my heart knew you were the one — like the opening scene of a love story that never ends."
@@ -48,3 +48,4 @@ with open(r"ds.mp4", "rb") as video_file:
     video_bytes = video_file.read()
 
 st.video(video_bytes)
+
