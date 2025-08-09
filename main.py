@@ -13,7 +13,7 @@ playlist = {
     "Die with a Smile – Lady Gaga & Bruno Mars": r"d.mp3",
     "Those Eyes – New West": r"t.mp3",
     "Lover – Taylor Swift": r"l.mp3",
-    "Marry Me – Jason Derulo": r"m.mp3",
+    "Marry you": r"m.mp3",
     "Love Story – Taylor Swift": r"love.mp3",
     "Bihibbek W Bghaar – Assi El Hallani": r"b.mp3",
     "Min awal diea": r"es.mp3"
@@ -48,4 +48,5 @@ with open(r"ds.mp4", "rb") as video_file:
     video_bytes = video_file.read()
 
 st.video(video_bytes)
+
 
