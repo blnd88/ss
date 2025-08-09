@@ -35,10 +35,9 @@ song_choice = st.selectbox("Choose a scene from our drama:", list(playlist.keys(
 
 # --- LOAD & PLAY SONG ---
 file_path = playlist[song_choice]
-with open(file_path, "rb") as audio_file:
-    audio_bytes = audio_file.read()
+
 st.markdown(f"**Now Playing:** {song_choice}")
-st.audio(audio_bytes, format="audio/mp3")
+st.audio(file_path, format="audio/mp3")
 
 # --- ROMANTIC MESSAGE ---
 st.markdown(f"💌 **Scene Note:** {messages[song_choice]}")
@@ -47,3 +46,4 @@ st.markdown(f"💌 **Scene Note:** {messages[song_choice]}")
 with open(r"ds.mp4", "rb") as video_file:
     video_bytes = video_file.read()
 st.video(video_bytes)
+
