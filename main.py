@@ -6,7 +6,7 @@ st.title("🎶 Our Love Playlist 🎶")
 st.markdown("Every song here is a scene in our drama. 💖")
 
 playlist = {
-    "Die with a Smile – Lady Gaga & Bruno Mars": "https://raw.githubusercontent.com/yourusername/yourrepo/main/d.mp3",
+    "Die with a Smile – Lady Gaga & Bruno Mars": "https://github.com/blnd88/ss/blob/main/b.mp3",
     "Those Eyes – New West": "https://raw.githubusercontent.com/yourusername/yourrepo/main/t.mp3",
     "Lover – Taylor Swift": "https://raw.githubusercontent.com/yourusername/yourrepo/main/l.mp3",
     "Marry you": "https://raw.githubusercontent.com/yourusername/yourrepo/main/m.mp3",
@@ -35,3 +35,4 @@ st.markdown(f"💌 **Scene Note:** {messages[song_choice]}")
 
 video_url = "https://raw.githubusercontent.com/yourusername/yourrepo/main/ds.mp4"
 st.video(video_url)
+
